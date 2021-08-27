@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact page - Shuvo</title>
+    <!-- bootstrap  -->
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <!-- custom css -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <!-- nav bar -->
+
+    <nav class="navbar navbar-expand-lg dark">
+        <div class="container">
+          <a class="navbar-brand" href="#">Shuvo</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <span class="text-center w-100 py-3 batch" href="#">Batch No: N213-3</span>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="about.html">About</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
+              </li>
+             
+            </ul>
+           
+          </div>
+        </div>
+      </nav>
+
+
+
+    <div class="container-contact">
+		<div class="wrap-contact">
+				<span class="contact-form-title">
+					Contact Me
+				</span>
+
+			<form class="contact-form validate-form">
+				<div class="wrap-input validate-input" data-validate="Name is required">
+					<span class="label-input">Full Name:</span>
+					<input class="input" type="text" name="name" placeholder="Enter full name">
+					<span class="focus-input"></span>
+				</div>
+
+				<div class="wrap-input validate-input" data-validate = "Valid email is required: ex@abc.xyz">
+					<span class="label-input">Email:</span>
+					<input class="input" type="text" name="email" placeholder="Enter email addess">
+					<span class="focus-input"></span>
+				</div>
+
+				<div class="wrap-input validate-input" data-validate="Phone is required">
+					<span class="label-input">Phone:</span>
+					<input class="input" type="text" name="phone" placeholder="Enter phone number">
+					<span class="focus-input"></span>
+				</div>
+
+				<div class="wrap-input validate-input" data-validate = "Message is required">
+					<span class="label-input">Message:</span>
+					<textarea class="input" name="message" placeholder="Your Comment..."></textarea>
+					<span class="focus-input"></span>
+				</div>
+
+				<div class="container-contact-form-btn">
+					<button class="button">Submit</button>
+				</div>
+			</form>
+		</div>
+	</div>
+
+  <footer>
+    <h2 class="footer-text">All rights are reserved by <a href="#">Shuvo</a></h2>
+  </footer>
+
+    <script src='./js/main.js'></script>
+</body>
+</html>
